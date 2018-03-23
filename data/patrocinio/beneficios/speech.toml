@@ -1,0 +1,3 @@
+nome = "speech" #nome do beneficio, será usado como chave nas categorias de patrocinio
+#descrição do benefício
+descricao = "Um minuto para falar com o público"

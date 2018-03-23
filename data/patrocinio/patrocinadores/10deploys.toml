@@ -1,0 +1,5 @@
+nome = "10deploys" #nome do patrocinador
+descricao = "10 Deploys" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://www.10deploys.com/"#endereço do site do patrocinador
+categoria = "apoio"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "10deploys.png"#imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)

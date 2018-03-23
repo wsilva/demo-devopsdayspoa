@@ -1,8 +1,14 @@
 nome = "prata" #nome da categoria de patrocinio
 altura = "108px" #altura da imagem dos patrocinadores dessa categoria
 largura = "216px" #largura da imagem dos patrocinadores dessa categoria
-cota = "1000"  #valor da cota de patrocinio (ex: para R$ 500,00 colocar "500")
+cota = "2000"  #valor da cota de patrocinio (ex: para R$ 500,00 colocar "500")
+ordem = 3
 
 #os próximos campos são gerados dinamicamente, tendo como "chave" o nome dos arquivos de definição dos data templates em data/patrocinio/beneficios
-quantidade = "3"
-banners = "2/3U"
+ingressos = "2"
+logoemail = "sim"
+logosite = "sim"
+logoslides = "sim"
+mesacompartilhada = "sim"
+mesapropria = "não"
+speech = "não"

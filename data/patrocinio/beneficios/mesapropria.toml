@@ -1,0 +1,3 @@
+nome = "mesapropria" #nome do beneficio, será usado como chave nas categorias de patrocinio
+#descrição do benefício
+descricao = "Mesa própria"

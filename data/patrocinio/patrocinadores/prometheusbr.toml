@@ -1,0 +1,5 @@
+nome = "prometheusbr" #nome do patrocinador
+descricao = "Prometheus BR" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://www.meetup.com/Prometheus-Brasil/"#endereço do site do patrocinador
+categoria = "apoio"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "prometheusbr.png"#imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
