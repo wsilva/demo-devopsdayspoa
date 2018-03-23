@@ -3,12 +3,14 @@
       <h2>Patrocinio</h2>
       <hr />
       <div class="text-center">
-        {{ range $element := (sort .Site.Data.patrocinio.categorias "largura" "desc") }}
+        {{ range $element := (sort .Site.Data.patrocinio.categorias "ordem" "asc") }}
         <div class="{{.nome}}">
           <h3>{{.nome | humanize }}</h3>
             {{ range $.Site.Data.patrocinio.patrocinadores}}
             {{ if eq .categoria $element.nome }}
-            <img src="img/patrocinio/{{ .imagem }}" alt="{{ .descricao | humanize }}">
+            <a href="{{ .link}}" target="_blank">
+              <img src="img/patrocinio/{{ .imagem }}" alt="{{ .descricao | humanize }}">
+            </a>
             {{ end }}
             {{ end }}
           </div>
@@ -19,7 +21,7 @@
           <table class="table">
             <tr>
               <th>Benefícios propostos</th>
-              <th colspan="4">Grupos de parceria</th>
+              <th colspan="6">Grupos de parceria</th>
             </tr>
             <tr>
               <th></th>
@@ -44,5 +46,6 @@
           </table>
         </div>
       </div>
+      Há também oportunidades para patrocínios especiais exclusivos. Se você está interessado em um patrocínio especial ou tem uma ideia criativa sobre como pode apoiar o evento, <a href="mailto:organizers-sao-paulo-2018@devopsdays.org?subject=DevOpsDays São Paulo - Patrocínio">mande um email para nós</a>.
   </div>
 </div>
