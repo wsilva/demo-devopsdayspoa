@@ -11,7 +11,7 @@ slider_selector = "disable" #qualquer coisa que não seja "enable" irá desabili
 slider_sidecontrols = "enable" #qualquer coisa que não seja "enable" irá desabilitar os controles
 # intro_image = "Gears.svg" #apenas o nome da imagem, deve estar em img/intro/
 intro_image = "logo-dod-sampa-transp.svg" #apenas o nome da imagem, deve estar em img/intro/
-link_c4p = "https://www.papercall.io/devopsdays-sp-2018" #endereço para o form/sistema de call4papers
+# link_c4p = "https://www.papercall.io/devopsdays-sp-2018" #endereço para o form/sistema de call4papers
 
 email = "organizers-sao-paulo-2018@devopsdays.org" #email da organização do email
 twitter = "@sp_devopsdays" #para https://www.twitter.com/nao-existe colocar apenas "não-existe"
