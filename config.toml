@@ -5,7 +5,7 @@ theme = "devopsdayspoa"
 googleAnalytics = "UA-36355678-4" # Enable Google Analytics by entering your tracking id
 
 [params]
-description = "Evento que discute desenvolvimento de software, infraestrutura e operações de tecnologia de informação e tudo que fica na intersecção dessas duas áreas como processos, postura, comportamento entre ouotros." #irá preencher o meta description
+description = "Evento da cultura DevOps que será realizado em São Paulo e discute desenvolvimento de software, infraestrutura e operações no contexto de tecnologia de informação. Também abrange tudo que fica na intersecção dessas duas áreas como processos, postura, comportamento entre outros." #irá preencher o meta description
 slider = "enable" #qualquer coisa que não seja "enable" irá desabilitar o slider (as imagens que ficam correndo atrás do logo/nome do evento)
 slider_selector = "disable" #qualquer coisa que não seja "enable" irá desabilitar os seletores
 slider_sidecontrols = "enable" #qualquer coisa que não seja "enable" irá desabilitar os controles
