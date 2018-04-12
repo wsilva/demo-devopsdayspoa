@@ -1,4 +1,4 @@
 nome = "Earlybird" #nome do tipo de ingresso
-descricao = "Compra antecipada" #descrição para o tipo de ingresso
-valor = "À partir de R$ 220,00" #valor para o tipo de ingresso
-link = "https://www.eventbrite.com.br/e/devopsdays-sp-2018-tickets-42971706531" #endereço para a compra desse tipo de ingresso
+descricao = "[ FINALIZADO ]<br/>Para compras antecipadas" #descrição para o tipo de ingresso
+preco = "R$ 220,00" #valor para o tipo de ingresso
+link = "#" #endereço para a compra desse tipo de ingresso

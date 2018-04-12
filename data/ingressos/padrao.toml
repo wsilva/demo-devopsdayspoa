@@ -1,0 +1,4 @@
+nome = "Valor padrão" #nome do tipo de ingresso
+descricao = "Valor padrão para os participantes" #descrição para o tipo de ingresso
+preco = "R$ 280,00" #valor para o tipo de ingresso
+link = "https://www.eventbrite.com.br/e/devopsdays-sp-2018-tickets-42971706531" #endereço para a compra desse tipo de ingresso
