@@ -2,6 +2,7 @@ baseURL = "http://example.org/" #por enquanto não usamos essa configuração
 languageCode = "pt-br" #por enquanto não usamos essa configuração
 title = "DevOpsDays São Paulo"
 theme = "devopsdayspoa"
+googleAnalytics = "UA-36355678-4" # Enable Google Analytics by entering your tracking id
 
 [params]
 description = "Evento que discute desenvolvimento de software, infraestrutura e operações de tecnologia de informação e tudo que fica na intersecção dessas duas áreas como processos, postura, comportamento entre ouotros." #irá preencher o meta description
