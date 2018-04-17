@@ -2,4 +2,4 @@ nome = "Test Girls" #nome do patrocinador
 descricao = "Test Girls" #descricao que irá aparecer como texto alternativo da imagem
 link = "https://www.meetup.com/test-girls/photos/"#endereço do site do patrocinador
 categoria = "apoio"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
-imagem = "test-girls.jpeg"#imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
+imagem = "test-girls.jpg"#imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
