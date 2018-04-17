@@ -1,0 +1,5 @@
+nome = "Papo de Sysadmin" #nome do patrocinador
+descricao = "Papo de Sysadmin" #descricao que irá aparecer como texto alternativo da imagem
+link = "http://papodesysadmin.org/"#endereço do site do patrocinador
+categoria = "apoio"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "papo-de-sysadmin.png"#imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
