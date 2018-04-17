@@ -1,0 +1,11 @@
+dia = "6 Jun"
+hora = "14:00 - 14:30" #hora da atividade
+atividade = "Die Hard - A tale of an always on app - K8s VS Chaos" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = "Ter uma aplicação resiliente não é uma tarefa fácil e, estar preparado para o inesperado, torna a tarefa ainda mais difícil<br><br>Chaos Engineering é a disciplina de trabalhar com a incerteza em sistemas distribuídos, descobrindo pontos fracos, ampliando a confiança e capacidade das aplicações em suportar condições turbulentas na produção.<br><br>Farei uma demonstração utilizando múltiplos clusters kubernetes federados, uma aplicação com múltiplos componentes espalhados e coordenados por ele e, de outro lado, o Chaos Engineering buscando derrubar a infraestrutura, mostrando ao público a resiliência e alta disponibilidade geográfica, mesmo em casos de perdas de regiões inteiras.<br><br>O público irá interagir com a aplicação durante o caos gerado, mesmo com sua infraestrutura sob ataque. Durante os passos explicarei alguns conceitos aplicados. Tecnologias Envolvidas"
+palestrante = "João Brito" #nome do palestrante

@@ -13,14 +13,28 @@ $('.navbar').on('activate.bs.scrollspy', function (event) {
   window.history.pushState("object or string", "Title", event.target.firstElementChild.hash);
 })
 
-$('#descricoes-palestras .collapse').on('show.bs.collapse', function () {
+$('#descricoes-palestras-1 .collapse').on('show.bs.collapse', function () {
   $('.collapse.in').each(function(){
       $(this).collapse('hide');
   });
 });
 
-$('#programacao .collapse').on('shown.bs.collapse', function (event) {
-  $.scrollTo('#programacao', 1000);
+$('#descricoes-palestras-2 .collapse').on('show.bs.collapse', function () {
+  $('.collapse.in').each(function(){
+      $(this).collapse('hide');
+  });
+});
+
+// $('#programacao .collapse').on('shown.bs.collapse', function (event) {
+//   $.scrollTo('#programacao', 1000);
+// })
+
+$("div[id^='dia1']").on('shown.bs.collapse', function (event) {
+  $.scrollTo('#dia1', 1000);
+})
+
+$("div[id^='dia2']").on('shown.bs.collapse', function (event) {
+  $.scrollTo('#dia2', 1000);
 })
 
 $('#programacao .nav').bind('click', 'a', function(event) {

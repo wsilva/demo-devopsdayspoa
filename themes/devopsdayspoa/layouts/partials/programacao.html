@@ -8,14 +8,15 @@
     <h2>Programação</h2>
 
     <hr />
+    <h3 id="dia1">Primeiro Dia</h3>
     <div class="row">
-      <div id="descricoes-palestras" class="pull-right">
+      <div id="descricoes-palestras-1" class="pull-right">
         <div class="collapse in">
           <h3>Descrições palestras</h3>
           <p>Clique no nome da palestra para ver a sua descrição.</p>
         </div>
-        {{ range $index, $element := sort .Site.Data.programacao "hora" }}
-        <div id="{{$index}}" class="collapse">
+        {{ range $index, $element := sort .Site.Data.programacao.dia1 "hora" }}
+        <div id="dia1-{{$index}}" class="collapse">
           <h3>{{ .atividade }}</h3>
           {{ if .palestrante }}<p>Palestrante: {{ .palestrante }}</p>{{ end }}
           <p>{{ .descricao | safeHTML | markdownify }}</p>
@@ -25,8 +26,8 @@
 
       <div class="col-lg-6 col-sm-6">
         <table class="table table-hover">
-          {{ range $index, $element := sort .Site.Data.programacao "hora" }}
-          <tr data-target="#{{$index}}">
+          {{ range $index, $element := sort .Site.Data.programacao.dia1 "hora" }}
+          <tr data-target="#dia1-{{$index}}">
             <td class="hora">
               {{ .hora }}
             </td>
@@ -39,5 +40,40 @@
       </div>
 
     </div> <!-- /row -->
+    
+    <hr />
+    <h3 id="dia2">Segundo Dia</h3>
+    <div class="row">
+      <div id="descricoes-palestras-2" class="pull-right">
+        <div class="collapse in">
+          <h3>Descrições palestras</h3>
+          <p>Clique no nome da palestra para ver a sua descrição.</p>
+        </div>
+        {{ range $index, $element := sort .Site.Data.programacao.dia2 "hora" }}
+        <div id="dia2-{{$index}}" class="collapse">
+          <h3>{{ .atividade }}</h3>
+          {{ if .palestrante }}<p>Palestrante: {{ .palestrante }}</p>{{ end }}
+          <p>{{ .descricao | safeHTML | markdownify }}</p>
+        </div>
+        {{ end }}
+      </div>
+
+      <div class="col-lg-6 col-sm-6">
+        <table class="table table-hover">
+          {{ range $index, $element := sort .Site.Data.programacao.dia2 "hora" }}
+          <tr data-target="#dia2-{{$index}}">
+            <td class="hora">
+              {{ .hora }}
+            </td>
+            <td class="evento">
+              {{ .atividade }}
+            </td>
+          </tr>
+          {{ end }}
+        </table>
+      </div>
+
+    </div> <!-- /row -->
+
   </div>
 </div> <!-- /#programacao -->

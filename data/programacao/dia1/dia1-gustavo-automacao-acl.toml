@@ -1,0 +1,11 @@
+dia = "6 Jun"
+hora = "13:30 - 14:00" #hora da atividade
+atividade = "Automação de Access Control Lists através de Redes Definidas por Software" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = "Imagine garantir a liberação de acessos entre aplicações e serviços de forma automatizada e de baixo custo. Essa palestra apresentará como estruturamos a Cloud da Globo.com e como através da GloboNetworkAPI, OpenDaylight e Open vSwitch conseguimos implementar uma solução automatizada em SDN.<br><br>No datacenter da Globo.com temos um problema ao configurar ACLs em nossos Switches topo de rack. As ACL são escritas em uma memória especializada chamada TCAM. Essas memórias são muito pequenas e muito caras. Além disso os fabricantes de hardware de telecom não conseguem entregar um equipamento com grandes volumes dessa memória. Em média, os equipamentos disponibilizam cerca de 2 Kb dessa memória.<br><br>Na Globo.com temos cerca 50 K ACLs. Elas não cabem nas memórias desses equipamentos. A consequência disso é que sempre perdemos algumas ACLs ou temos que criar ACLs mais genéricas; o que reduz a segurança.<br><br>Em função desse problema implementamos uma solução baseada em Redes Definidas por Software que suportasse todo o volume de ACLs assim como fazer isso de forma automatizada e sistêmica. Nessa solução utilizamos uma stack toda em software livre: a GloboNetworkAPI [1], o OpenDaylight [2] e o Open vSwitch [3] como ferramentas.<br><br>Essa palestra irá apresentar toda a estrutura da cloud da Globo.com dentro do Datacenter. Na sequência apresentar o problema dentro dessa infraestrutura. Em seguida aprofundar nos detalhes da arquitetura e da implementação da solução SDN. Ao final estatísticas da solução serão apresentadas como métricas da eficiência da solução.<br><br>[1] GloboNetworkAPI https://github.com/globocom/GloboNetworkAPI <br> [2] OpenDaylight https://www.opendaylight.org/ <br> [3] Open vSwitch http://www.openvswitch.org/"
+palestrante = "Gustavo Pantuza" #nome do palestrante

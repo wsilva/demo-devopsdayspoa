@@ -1,0 +1,11 @@
+dia = "7 Jun"
+hora = "09:20 - 09:50" #hora da atividade
+atividade = "Problemas!? Oba!" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = "O objetivo dessa palestra é gerar provocações que possam estimular mudanças nas pessoas, de forma que passem a ver os problemas como oportunidades de evolução pessoal e profissional e que o grande gatilho das evoluções são os problemas.<br><br>Problemas permitem que possamos aprender cada vez mais, são eles que permitem que nos desafiemos, resolver um problema deve ser um desafio, precisamos ver os problemas como oportunidades de evolução pessoal e profissional. Problemas são agentes de mudança e aprendizados. Parece que não, mas tudo isso tem muito haver com a cultura DevOps, mais do que você imagina. Problemas!? Oba!"
+palestrante = "Gustavo Lichti" #nome do palestrante

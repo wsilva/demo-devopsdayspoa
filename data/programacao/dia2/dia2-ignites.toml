@@ -1,0 +1,11 @@
+dia = "7 Jun"
+hora = "15:30 - 16:00" #hora da atividade
+atividade = "Ignite Talks" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = ""
+palestrante = "" #nome do palestrante
