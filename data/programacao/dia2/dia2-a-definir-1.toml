@@ -1,11 +1,11 @@
 dia = "7 Jun"
 hora = "14:00 - 14:30" #hora da atividade
-atividade = "A definir" #nome da atividade
+atividade = "Orchestrating automated tests in multiple operating systems and browsers" #nome da atividade
 #descricao da atividade (aceita html e markdown)
 #para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
 #exemplo:
 #descricao = """blablabla
 #blablabla
 #blablabla"""
-descricao = ""
-palestrante = "" #nome do palestrante
+descricao = "What should you do if your product must be tested on multiple operating systems before delivering? And what if it must be tested on different browsers? Now it is a lot of combinations. And how to do this on a agile way? Here is a talk about how we can orchestrate automated tests on different systems, on different browsers. Assuring the coverage on all operating systems and browsers supported by a product is one of the toughest tasks commonly faced when transitioning to a devops setup. Due to the high quantity of environment combinations, the complexity of organizing and executing tests increases and can lead to an uneffective pipeline. In this talk we will evaluate an automated orchestration of complex test suites that delivers the effectiveness needed for proper devops."
+palestrante = "Kelvin Ronny" #nome do palestrante
