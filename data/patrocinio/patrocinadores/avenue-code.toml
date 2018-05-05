@@ -1,0 +1,5 @@
+nome = "Avenue Code" #nome do patrocinador
+descricao = "Avenue Code" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://www.avenuecode.com/"#endereço do site do patrocinador
+categoria = "bronze"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "avenue-code.svg"#imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
