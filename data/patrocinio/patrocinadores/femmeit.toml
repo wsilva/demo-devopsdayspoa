@@ -1,0 +1,5 @@
+nome = "Femme IT" #nome do patrocinador
+descricao = "Femme IT" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://femmeit.com.br/"#endereço do site do patrocinador
+categoria = "apoio"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "femmeit.png"#imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
