@@ -1,5 +1,5 @@
 dia = "6 Jun"
-hora = "10:40 - 11:10" #hora da atividade
+hora = "11:10-11:40" #hora da atividade
 atividade = "Implementando uma cultura DevOps efetiva" #nome da atividade
 #descricao da atividade (aceita html e markdown)
 #para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
