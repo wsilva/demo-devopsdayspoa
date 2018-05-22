@@ -1,0 +1,5 @@
+nome = "Gio" #nome do patrocinador
+descricao = "Gio" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://www.behance.net/giolie"#endereço do site do patrocinador
+categoria = "apoio"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "giodesigner.png"#imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)

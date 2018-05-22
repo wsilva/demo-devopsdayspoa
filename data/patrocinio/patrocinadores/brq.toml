@@ -1,0 +1,5 @@
+nome = "BRQ"#nome do patrocinador
+descricao = "BRQ"#descricao que irá aparecer como texto alternativo da imagem
+link = "http://www.brq.com/"#endereço do site do patrocinador
+categoria = "ouro"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "brq.png" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
