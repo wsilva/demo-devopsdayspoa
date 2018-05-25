@@ -1,0 +1,5 @@
+nome = "Blue Digital"#nome do patrocinador
+descricao = "Blue Digital"#descricao que irá aparecer como texto alternativo da imagem
+link = "http://bluedigital.com.br/"#endereço do site do patrocinador
+categoria = "happyhour"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "bluedigital.png" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
