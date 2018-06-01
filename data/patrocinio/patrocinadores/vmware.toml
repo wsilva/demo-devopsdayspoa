@@ -1,0 +1,5 @@
+nome = "VMware"#nome do patrocinador
+descricao = "VMware"#descricao que irá aparecer como texto alternativo da imagem
+link = "http://vmware.com/"#endereço do site do patrocinador
+categoria = "ouro"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "vmware.svg" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
