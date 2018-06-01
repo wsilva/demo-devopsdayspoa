@@ -35,7 +35,7 @@ mapa_scrollwheel = false #a roda de rolagem do mouse deve poder alterar o zoom?
 mapa_disableDoubleClickZoom = true #vou ser sincero, não entendi o que isso faz, hahaha
 mapa_key = "AIzaSyCiPpI9Poabi4Utt9s8eVsYZfHTP_gFIKA" #chave na api do google, lembre de permitir o uso no google maps e afins!
 
-status_ingressos = "disponiveis" #qualquer coisa que não seja "disponiveis" irá mostrar o aviso
+status_ingressos = "indisponiveis" #qualquer coisa que não seja "disponiveis" irá mostrar o aviso
 aviso_status_ingressos = "Esgotados!"
 
 status_programacao = "disponivel" #qualquer coisa que não seja "disponivel" irá mostrar o aviso
