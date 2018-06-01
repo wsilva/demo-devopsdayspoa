@@ -7,5 +7,5 @@ atividade = "Ignite Talks" #nome da atividade
 #descricao = """blablabla
 #blablabla
 #blablabla"""
-descricao = ""
-palestrante = "" #nome do palestrante
+descricao = "Igor Souza - DevOps não é sobre velocidade, é sobre qualidade!<br><br>"
+palestrante = "Igor Souza" #nome do palestrante
