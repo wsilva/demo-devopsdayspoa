@@ -1,0 +1,5 @@
+nome = "Kinghost" #nome do patrocinador
+descricao = "Kinghost" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://king.host/"#endereço do site do patrocinador
+categoria = "bronze"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "kinghost.png"#imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
