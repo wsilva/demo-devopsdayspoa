@@ -1,0 +1,11 @@
+dia = "6 Jun"
+hora = "17:00 - 17:30" #hora da atividade
+atividade = "Migração de testes manuais para automatizados - minha equipe está preparada?" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = "Mesmo na tecnologia, toda mudança causa desconforto no início e o mesmo ocorre para os testes automatizados. Saber qual o momento certo e os passos que precisam ser dados para essa migração é o que pretendo abordar na palestra, levando os participantes a se motivar na implantação deste processo.<br><br>Mudanças não são fáceis, isso é um fato. Muitos são os fatores impeditivos (tempo, dinheiro, motivação da equipe, etc), porém se não dermos um passo nunca poderemos evoluir e ganhar espaço nesse mercado extremamente exigente e rigoroso.<br><br>O objetivo dessa conversa é apresentar uma estrutura de preparação para migrar testes manuais para automatizados, para que o processo flua com naturalidade, sem causar dor de cabeça ao time."
+palestrante = "Luana Linares" #nome do palestrante
