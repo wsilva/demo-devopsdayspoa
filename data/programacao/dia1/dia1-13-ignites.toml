@@ -7,5 +7,5 @@ atividade = "Ignite Talks" #nome da atividade
 #descricao = """blablabla
 #blablabla
 #blablabla"""
-descricao = "Tatiane Paya - Tratando crises, como eliminar barreiras entre Operações e Desenvolvimento?<br><br>Luana Linares - Migração de testes manuais para automatizados - minha equipe está preparada?<br><br>Victor Monteiro - Mapeando 1 milhão de recursos em uma Cloud"
-palestrante = "Tatiane Paya, Luana Linares, Victor Monteiro" #nome do palestrante
+descricao = "Tatiane Paya - Tratando crises, como eliminar barreiras entre Operações e Desenvolvimento?<br><br>Victor Monteiro - Mapeando 1 milhão de recursos em uma Cloud<br><br>Igor Souza - DevOps não é sobre velocidade, é sobre qualidade!"
+palestrante = "Tatiane Paya, Victor Monteiro, Igor Souza" #nome do palestrante
