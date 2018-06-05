@@ -1,0 +1,5 @@
+nome = "vBrownBagBrasil" #nome do patrocinador
+descricao = "vBrownBagBrasil" #descricao que irá aparecer como texto alternativo da imagem
+link = "http://vbrownbagbrasil.com.br/"#endereço do site do patrocinador
+categoria = "apoio"#categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "vbrownbagbrasil.png"#imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
